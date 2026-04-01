@@ -8,5 +8,5 @@ Solving LeetCode problems from scratch. This repo is my progress log as I learn 
 `Day1_88_MergeSortedArray.js`
 
 ## Connect
-- LinkedIn: [Saumya Kesur]
-- X: [@saumyakesur]
+- LinkedIn: Saumya Kesur
+- X: @saumyakesur
