@@ -46,4 +46,4 @@ var permute = function(nums) {
 
     backtrack([]);
     return result;
-};
+}
