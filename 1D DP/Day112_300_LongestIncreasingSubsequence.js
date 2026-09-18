@@ -36,3 +36,23 @@ var lengthOfLIS = function(nums) {
 
     return Math.max(...dp);
 };
+
+// var lengthOfLIS = function(nums) {
+//     const tails = [];
+
+//     for (const num of nums) {
+//         let left = 0;
+//         let right = tails.length;
+
+//         // binary search for leftmost tail >= num
+//         while (left < right) {
+//             const mid = Math.floor((left + right) / 2);
+//             if (tails[mid] < num) left = mid + 1;
+//             else right = mid;
+//         }
+
+//         tails[left] = num; // replace or extend
+//     }
+
+//     return tails.length;
+// };
